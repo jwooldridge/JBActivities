@@ -1,0 +1,38 @@
+{
+   "workflowApiVersion": "1.0",
+   "metaData": {
+       "icon": "images/callcenter_40.png",
+       "iconSmall": "images/callcenter_15.png",
+       "category": "message",
+	   "isConfigured":true
+   },
+   "type": "REST",
+   "lang": {
+       "en-US": {
+           "name": "{{ACTIVITY_NAME}}",
+           "description": "{{ACTIVITY_DESCRIPTION}}"
+       }
+   },
+   "arguments": {
+       "execute": {
+           "url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/execute"
+       }
+   },
+   "configurationArguments": {
+       "applicationExtensionKey": "{{KEY}}",
+       "save": {
+           "url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/save"
+       },
+       "publish": {
+           "url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/publish"
+       },
+       "validate": {
+           "url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/validate"
+       }
+   },
+   "edit": {
+		"url": "https://{{APP_NAME}}.herokuapp.com/ixn/activities/hello-world/",
+		"height": 250,
+		"width": 600
+	}
+}

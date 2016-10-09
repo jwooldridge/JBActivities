@@ -1,7 +1,7 @@
 module.exports = {
-   appId           : '29172a9c-c893-456a-bc8c-648132e35390',
-   clientId        : 'rsuy7t23gnftgl6kr7lov4ow',
-   clientSecret    : 'Rr7ic191JGyKXfjA5srWU8XX',
-   appSignature    : 'hoi2cjh1liqcvr1lvqhj5w2ru44eguauia23pcqf0ujimstmetxodra1ai24vnikeb5fcq1vtdgsxflw5dqx3ijqpt0ocwo5o3nhomgxogimkqbgbn5etfp5agvx4n5dmtk3zaww3woz3jrfehceyivlpcc2cc5z3ytvkpdz3hrbkjunn5ninekevhgpbrygn5r3w4mlzabr2r0hnvxcmv0avr0fepercruu0zqkaw55da21wtxzifyblaxn15b',
+   appId           : 'e2283ba6-4312-44ab-b194-0e79f88e2241',
+   clientId        : 'phael0jxw0l77g9ey58i84il',
+   clientSecret    : 'Yf4MHXm6JO9EJbk96vpKd4gy',
+   appSignature    : 'bwj05nztohax1hsbya12cw22vaspio2qe34jarpzvpqvnv0svgmxybx03jlpcu5sbimufgdnnz5avecyheu3uw0oqtgjcfvbede0n2vrgft3wuxp3iacvtcdza3exrpadn1e0lvhwuv53p0b1vjmnwk0zsgovr1ljma5mia1rajgoqc2lj2g3teeshmmj0diujeudndzfhdymdmdxewtlat0mrucizwm5w5zy2cm0r20ahj0ipibv3csw24urpb',
    authUrl         : 'https://auth.exacttargetapis.com/v1/requestToken?legacy=1'
 };
